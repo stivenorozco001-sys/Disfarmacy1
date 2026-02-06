@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: stivenorozco001-sys/Disfarmacy1
   branch: main
 
 media_folder: "img/productos"
@@ -12,13 +13,5 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Nombre del producto", name: "nombre", widget: "string" }
-      - { label: "Imagen del producto", name: "imagen", widget: "image" }
-      - { 
-          label: "Estado", 
-          name: "estado", 
-          widget: "select", 
-          options: ["Disponible", "Agotado"],
-          default: "Disponible"
-        }
-
+      - { label: "Nombre del producto", name: "title", widget: "string" }
+      - { label: "Imagen del producto", name: "image", widget: "image" }
