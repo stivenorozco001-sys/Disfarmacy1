@@ -1,4 +1,4 @@
-fetch('https://opensheet.elk.sh/TU_SHEET_ID/Hoja1')
+fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoja%201')
   .then(response => response.json())
   .then(productos => {
     const contenedor = document.getElementById('productos');
