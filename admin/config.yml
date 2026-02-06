@@ -2,6 +2,8 @@ backend:
   name: github
   repo: stivenorozco001-sys/Disfarmacy1
   branch: main
+  base_url: https://decap-oauth.netlify.app
+  auth_endpoint: auth
 
 media_folder: "img/productos"
 public_folder: "/img/productos"
@@ -13,5 +15,5 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Nombre del producto", name: "title", widget: "string" }
-      - { label: "Imagen del producto", name: "image", widget: "image" }
+      - { label: "Nombre", name: "title", widget: "string" }
+      - { label: "Imagen", name: "image", widget: "image" }
