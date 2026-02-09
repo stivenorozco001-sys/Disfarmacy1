@@ -8,6 +8,9 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
     let filtroEstado = 'todos';
     let textoBusqueda = '';
 
+    // 📲 CONFIGURA TU WHATSAPP AQUÍ
+    const telefonoWhatsApp = '573242228107'; 
+
     if (!productos || productos.length === 0) {
       contenedor.innerHTML = '<p>No hay productos disponibles.</p>';
       return;
@@ -55,6 +58,23 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
         const estado = obtenerEstado(p);
         const agotado = estado === 'Agotado';
 
+        // 🟢 BOTÓN WHATSAPP SOLO SI ESTÁ DISPONIBLE
+        const mensaje = encodeURIComponent(
+          `Hola, estoy interesado en el producto "${nombre}". ¿Está disponible?`
+        );
+
+        const botonWhatsApp = !agotado
+          ? `
+            <a 
+              href="https://wa.me/${telefonoWhatsApp}?text=${mensaje}" 
+              class="btn-whatsapp" 
+              target="_blank"
+            >
+              💬 Consultar por WhatsApp
+            </a>
+          `
+          : '';
+
         contenedor.innerHTML += `
           <article class="producto">
             <img src="${imagen}" alt="${nombre}" loading="lazy">
@@ -62,13 +82,16 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
             <p class="estado ${agotado ? 'agotado' : 'disponible'}">
               ${estado}
             </p>
+            ${botonWhatsApp}
           </article>
         `;
       });
     }
 
+    // Render inicial
     renderProductos();
 
+    // Filtros
     botones.forEach(btn => {
       btn.addEventListener('click', () => {
         botones.forEach(b => b.classList.remove('activo'));
@@ -79,6 +102,7 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
       });
     });
 
+    // Buscador
     buscador.addEventListener('input', e => {
       textoBusqueda = e.target.value.toLowerCase();
       renderProductos();
