@@ -38,15 +38,22 @@
     </p>
   </section>
 
-  <!-- 🔍 BUSCADOR DE PRODUCTOS -->
+  <!-- 🔍 BUSCADOR -->
   <section class="buscador" aria-label="Buscador de productos">
     <input 
       type="text"
-      id="buscarProducto"
+      id="buscadorInput"
       placeholder="Buscar producto por nombre..."
       aria-label="Buscar productos farmacéuticos"
     >
   </section>
+
+  <!-- 🎯 FILTROS -->
+  <div class="filtros">
+    <button class="filtro-btn activo" data-filtro="todos">Todos</button>
+    <button class="filtro-btn" data-filtro="Disponible">Disponibles</button>
+    <button class="filtro-btn" data-filtro="Agotado">Agotados</button>
+  </div>
 
   <!-- LISTADO -->
   <section aria-label="Listado de productos farmacéuticos">
