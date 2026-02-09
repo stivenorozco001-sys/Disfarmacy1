@@ -13,6 +13,12 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
       return;
     }
 
+    function normalizarEstado(valor) {
+      if (!valor) return 'Disponible';
+      const limpio = valor.toString().trim().toLowerCase();
+      return limpio === 'agotado' ? 'Agotado' : 'Disponible';
+    }
+
     function renderProductos() {
       contenedor.innerHTML = '';
 
@@ -20,7 +26,7 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
         if (!p.nombre || !p.imagen) return false;
 
         const nombre = p.nombre.toLowerCase();
-        const estado = p.estado ? p.estado.trim() : 'Disponible';
+        const estado = normalizarEstado(p.estado);
 
         const coincideTexto = nombre.includes(textoBusqueda);
         const coincideEstado =
@@ -35,8 +41,8 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
       }
 
       filtrados.forEach(p => {
-        const estado = p.estado ? p.estado.trim() : 'Disponible';
-        const agotado = estado.toLowerCase() === 'agotado';
+        const estado = normalizarEstado(p.estado);
+        const agotado = estado === 'Agotado';
 
         contenedor.innerHTML += `
           <article class="producto">
