@@ -1,5 +1,5 @@
 fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoja%201')
-  .then(response => response.json())
+  .then(res => res.json())
   .then(productos => {
     const contenedor = document.getElementById('productos');
     const botones = document.querySelectorAll('.filtro-btn');
@@ -13,8 +13,17 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
       return;
     }
 
-    function normalizarEstado(valor) {
+    // 🔎 Detectar estado sin depender del nombre exacto
+    function obtenerEstado(producto) {
+      const posiblesClaves = ['estado', 'Estado', 'disponibilidad', 'Disponibilidad'];
+
+      let valor = '';
+      posiblesClaves.forEach(clave => {
+        if (producto[clave]) valor = producto[clave];
+      });
+
       if (!valor) return 'Disponible';
+
       const limpio = valor.toString().trim().toLowerCase();
       return limpio === 'agotado' ? 'Agotado' : 'Disponible';
     }
@@ -23,10 +32,10 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
       contenedor.innerHTML = '';
 
       const filtrados = productos.filter(p => {
-        if (!p.nombre || !p.imagen) return false;
+        if (!p.nombre && !p.Nombre) return false;
 
-        const nombre = p.nombre.toLowerCase();
-        const estado = normalizarEstado(p.estado);
+        const nombre = (p.nombre || p.Nombre).toLowerCase();
+        const estado = obtenerEstado(p);
 
         const coincideTexto = nombre.includes(textoBusqueda);
         const coincideEstado =
@@ -41,13 +50,15 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
       }
 
       filtrados.forEach(p => {
-        const estado = normalizarEstado(p.estado);
+        const nombre = p.nombre || p.Nombre;
+        const imagen = p.imagen || p.Imagen;
+        const estado = obtenerEstado(p);
         const agotado = estado === 'Agotado';
 
         contenedor.innerHTML += `
           <article class="producto">
-            <img src="${p.imagen}" alt="${p.nombre}" loading="lazy">
-            <h3>${p.nombre}</h3>
+            <img src="${imagen}" alt="${nombre}" loading="lazy">
+            <h3>${nombre}</h3>
             <p class="estado ${agotado ? 'agotado' : 'disponible'}">
               ${estado}
             </p>
@@ -56,10 +67,8 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
       });
     }
 
-    // Render inicial
     renderProductos();
 
-    // Eventos filtros
     botones.forEach(btn => {
       btn.addEventListener('click', () => {
         botones.forEach(b => b.classList.remove('activo'));
@@ -70,14 +79,13 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
       });
     });
 
-    // Buscador
     buscador.addEventListener('input', e => {
       textoBusqueda = e.target.value.toLowerCase();
       renderProductos();
     });
   })
-  .catch(error => {
-    console.error(error);
+  .catch(err => {
+    console.error(err);
     document.getElementById('productos').innerHTML =
       '<p>Error al cargar los productos.</p>';
   });
