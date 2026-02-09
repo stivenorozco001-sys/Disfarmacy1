@@ -2,22 +2,39 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
   .then(response => response.json())
   .then(productos => {
     const contenedor = document.getElementById('productos');
+
+    // Mensaje si no hay productos
+    if (!productos || productos.length === 0) {
+      contenedor.innerHTML = '<p>No hay productos disponibles en este momento.</p>';
+      return;
+    }
+
     contenedor.innerHTML = '';
 
     productos.forEach(p => {
       if (!p.nombre || !p.imagen) return;
 
+      const estado = p.estado ? p.estado.trim() : 'Disponible';
+      const agotado = estado.toLowerCase() === 'agotado';
+
       contenedor.innerHTML += `
-        <div class="producto">
-          <img src="${p.imagen}" alt="${p.nombre}">
+        <article class="producto" data-estado="${estado}">
+          <img 
+            src="${p.imagen}" 
+            alt="Producto farmacéutico: ${p.nombre}"
+            loading="lazy"
+          >
           <h3>${p.nombre}</h3>
-          <p class="estado ${p.estado === 'Agotado' ? 'agotado' : ''}">
-            ${p.estado || 'Disponible'}
+          <p class="estado ${agotado ? 'agotado' : 'disponible'}">
+            ${estado}
           </p>
-        </div>
+        </article>
       `;
     });
   })
   .catch(error => {
     console.error('Error cargando productos:', error);
+
+    const contenedor = document.getElementById('productos');
+    contenedor.innerHTML = '<p>Error al cargar los productos. Intenta más tarde.</p>';
   });
