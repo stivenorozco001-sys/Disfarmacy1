@@ -178,3 +178,25 @@ body {
     padding: 30px 20px;
   }
 }
+
+/* BUSCADOR */
+.buscador {
+  max-width: 500px;
+  margin: 40px auto 0;
+  padding: 0 20px;
+}
+
+.buscador input {
+  width: 100%;
+  padding: 14px 20px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.buscador input:focus {
+  border-color: #1e88e5;
+}
+

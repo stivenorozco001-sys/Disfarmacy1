@@ -29,7 +29,7 @@
 
 <main class="catalogo">
 
-  <!-- Texto para SEO (Google lo lee) -->
+  <!-- Texto SEO -->
   <section class="seo-text">
     <p>
       En esta sección puedes consultar el catálogo de productos farmacéuticos
@@ -38,6 +38,17 @@
     </p>
   </section>
 
+  <!-- 🔍 BUSCADOR DE PRODUCTOS -->
+  <section class="buscador" aria-label="Buscador de productos">
+    <input 
+      type="text"
+      id="buscarProducto"
+      placeholder="Buscar producto por nombre..."
+      aria-label="Buscar productos farmacéuticos"
+    >
+  </section>
+
+  <!-- LISTADO -->
   <section aria-label="Listado de productos farmacéuticos">
     <div id="productos" class="productos-grid">
       <!-- Los productos se cargan dinámicamente -->
