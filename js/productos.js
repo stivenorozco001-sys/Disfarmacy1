@@ -1,50 +1,98 @@
 fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoja%201')
   .then(res => res.json())
   .then(productos => {
+
+    /* ===============================
+       REFERENCIAS AL DOM
+       =============================== */
+
     const contenedor = document.getElementById('productos');
     const botones = document.querySelectorAll('.filtro-btn');
     const buscador = document.getElementById('buscadorInput');
+    const categoriaSelect = document.getElementById('categoriaSelect');
+
+    /* ===============================
+       ESTADO DE FILTROS
+       =============================== */
 
     let filtroEstado = 'todos';
     let textoBusqueda = '';
+    let filtroCategoria = 'todas';
 
-    // 📲 CONFIGURA TU WHATSAPP AQUÍ
-    const telefonoWhatsApp = '573242228107'; 
+    /* ===============================
+       CONFIGURACIÓN
+       =============================== */
+
+    // 📲 CAMBIA AQUÍ TU WHATSAPP
+    const telefonoWhatsApp = '573242228107';
 
     if (!productos || productos.length === 0) {
       contenedor.innerHTML = '<p>No hay productos disponibles.</p>';
       return;
     }
 
-    // 🔎 Detectar estado sin depender del nombre exacto
+    /* ===============================
+       UTILIDADES
+       =============================== */
+
+    // Normaliza texto para comparar y crear clases CSS
+    function normalizar(texto) {
+      return texto
+        ? texto
+            .toString()
+            .trim()
+            .toLowerCase()
+            .replace(/\s+/g, '') // elimina espacios
+        : '';
+    }
+
+    // Obtiene el estado real del producto
     function obtenerEstado(producto) {
       const posiblesClaves = ['estado', 'Estado', 'disponibilidad', 'Disponibilidad'];
-
       let valor = '';
+
       posiblesClaves.forEach(clave => {
         if (producto[clave]) valor = producto[clave];
       });
 
-      if (!valor) return 'Disponible';
-
-      const limpio = valor.toString().trim().toLowerCase();
-      return limpio === 'agotado' ? 'Agotado' : 'Disponible';
+      return normalizar(valor) === 'agotado'
+        ? 'Agotado'
+        : 'Disponible';
     }
+
+    // Obtiene la categoría del producto
+    function obtenerCategoria(producto) {
+      const posiblesClaves = ['categoria', 'Categoria', 'categoría', 'Categoría'];
+      let valor = '';
+
+      posiblesClaves.forEach(clave => {
+        if (producto[clave]) valor = producto[clave];
+      });
+
+      return normalizar(valor);
+    }
+
+    /* ===============================
+       RENDER DE PRODUCTOS
+       =============================== */
 
     function renderProductos() {
       contenedor.innerHTML = '';
 
       const filtrados = productos.filter(p => {
-        if (!p.nombre && !p.Nombre) return false;
+        const nombre = normalizar(p.nombre || p.Nombre);
+        if (!nombre) return false;
 
-        const nombre = (p.nombre || p.Nombre).toLowerCase();
         const estado = obtenerEstado(p);
+        const categoria = obtenerCategoria(p);
 
         const coincideTexto = nombre.includes(textoBusqueda);
         const coincideEstado =
           filtroEstado === 'todos' || estado === filtroEstado;
+        const coincideCategoria =
+          filtroCategoria === 'todas' || categoria === filtroCategoria;
 
-        return coincideTexto && coincideEstado;
+        return coincideTexto && coincideEstado && coincideCategoria;
       });
 
       if (filtrados.length === 0) {
@@ -56,9 +104,12 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
         const nombre = p.nombre || p.Nombre;
         const imagen = p.imagen || p.Imagen;
         const estado = obtenerEstado(p);
+        const categoria = obtenerCategoria(p);
         const agotado = estado === 'Agotado';
 
-        // 🟢 BOTÓN WHATSAPP SOLO SI ESTÁ DISPONIBLE
+        // 🔥 CLASE DINÁMICA POR CATEGORÍA
+        const categoriaClase = categoria || 'sin-categoria';
+
         const mensaje = encodeURIComponent(
           `Hola, estoy interesado en el producto "${nombre}". ¿Está disponible?`
         );
@@ -76,22 +127,31 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
           : '';
 
         contenedor.innerHTML += `
-          <article class="producto">
+          <article class="producto categoria-${categoriaClase}">
             <img src="${imagen}" alt="${nombre}" loading="lazy">
             <h3>${nombre}</h3>
+
+            <span class="categoria-badge categoria-${categoriaClase}">
+              ${categoria || 'Sin categoría'}
+            </span>
+
             <p class="estado ${agotado ? 'agotado' : 'disponible'}">
               ${estado}
             </p>
+
             ${botonWhatsApp}
           </article>
         `;
       });
     }
 
-    // Render inicial
+    /* ===============================
+       EVENTOS
+       =============================== */
+
     renderProductos();
 
-    // Filtros
+    // Filtro por estado
     botones.forEach(btn => {
       btn.addEventListener('click', () => {
         botones.forEach(b => b.classList.remove('activo'));
@@ -104,7 +164,13 @@ fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoj
 
     // Buscador
     buscador.addEventListener('input', e => {
-      textoBusqueda = e.target.value.toLowerCase();
+      textoBusqueda = normalizar(e.target.value);
+      renderProductos();
+    });
+
+    // Filtro por categoría
+    categoriaSelect.addEventListener('change', e => {
+      filtroCategoria = normalizar(e.target.value);
       renderProductos();
     });
   })
