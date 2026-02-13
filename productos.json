@@ -1,0 +1,368 @@
+[
+  {
+    "nombre": "Sinalgen",
+    "imagen": "https://i.ibb.co/8LmyxSLX/Sinalgen-5mg-325mg.jpg",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Dolex Forte",
+    "imagen": "https://i.ibb.co/G4W6QQJY/dolex-forte-100-tabletas.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Amoxicilina 250mg/5ml",
+    "imagen": "https://i.ibb.co/JXrj8T7/Amoxicilina-250mg-5ml.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Acetaminofen 90ml",
+    "imagen": "https://unidrogas.vtexassets.com/arquivos/ids/431115-800-800?v=638962038443100000&width=800&height=800&aspect=true",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Acetaminofen 120ml",
+    "imagen": "https://i.ibb.co/Y4csbXcK/008eb3c63ec3.jpg",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Smecta",
+    "imagen": "https://i.ibb.co/3mVxCHhm/smecta.jpg",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Piroxicam 20mg",
+    "imagen": "https://i.ibb.co/9mWrR03Q/Piroxicam.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Adorlan Forte 20 Tabletas",
+    "imagen": "https://i.ibb.co/3Yr11C79/Adorlan-Forte-20-Tabletas.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Adorlan 20 Comprimidos",
+    "imagen": "https://i.ibb.co/HpCxSQJ7/Adorlan-20-comprimidos.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Ibuprofeno 400mg",
+    "imagen": "https://i.ibb.co/q3xXHmpv/Ibuprofeno-400mg.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Apotox",
+    "imagen": "https://i.ibb.co/Z1RYv3tn/Aprotox.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Tramadol",
+    "imagen": "https://i.ibb.co/xKSwsrq5/Tramadol-100-mg-ml.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Krodex f Compuesto",
+    "imagen": "https://i.ibb.co/dy9QV6H/Krodex-f-Compuesto.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Tramadol Clorohidrato 50 mg",
+    "imagen": "https://i.ibb.co/pjYGc0gr/Tramadol-Clorohidrato-50-mg.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Fencafen",
+    "imagen": "https://i.ibb.co/8W5S51c/Fencafen.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Activa 21",
+    "imagen": "https://i.ibb.co/Q7d34QZ5/Activa-21.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "PostDay Levonorgestrel",
+    "imagen": "https://i.ibb.co/YBfVzSRL/Post-Day.jpg",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Deferol",
+    "imagen": "https://i.ibb.co/232bJpD5/Deferol.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Doxicilina 100mg",
+    "imagen": "https://i.ibb.co/yFLHfcHs/Doxicilina-100mg.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Ampicilina 500mg",
+    "imagen": "https://i.ibb.co/yFhxVqGk/Ampicilina-500mg.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Diclofenaco 100mg",
+    "imagen": "https://i.ibb.co/3yqG6wGV/Diclofenaco-100mg.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Ibuprofeno 800mg",
+    "imagen": "https://i.ibb.co/spX5xHMB/Ibuprofeno-800mg.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Buscapina fem",
+    "imagen": "https://i.ibb.co/HLHWvPtW/Buscapina-fem.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Amoxicilina 500mg",
+    "imagen": "https://i.ibb.co/HLyrCnvk/Amoxicilina-500mg.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Complejo B",
+    "imagen": "https://i.ibb.co/BKVjJfGy/Complejo-B.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Tiamina 300mg",
+    "imagen": "https://i.ibb.co/jPF4r5NL/Tiamina-300mg.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Clotrimazol 100mg",
+    "imagen": "https://i.ibb.co/8LgKh8q3/Clotrimazol-100mg.png",
+    "estado": "disponible",
+    "categoria": "cremas vaginales"
+  },
+  {
+    "nombre": "FemDuo",
+    "imagen": "https://i.ibb.co/5WTcjBG3/Fem-Duo.png",
+    "estado": "disponible",
+    "categoria": "cremas vaginales"
+  },
+  {
+    "nombre": "Clotrimazol Tabletas Vaginales",
+    "imagen": "https://i.ibb.co/nMSR9fk5/Clotrimazol-Tabletas-Vaginales.png",
+    "estado": "disponible",
+    "categoria": "cremas vaginales"
+  },
+  {
+    "nombre": "Oftalmotri Flox",
+    "imagen": "https://i.ibb.co/RkDdQ2GL/Oftalmotri-Flox.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Dorzolamida Brimonida Tartrato",
+    "imagen": "https://i.ibb.co/M5GbbY5s/Dorzolamida-Brimonida-Tartrato.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Metronidazol 500mg",
+    "imagen": "https://i.ibb.co/v64Vn4hS/Metronidazol-500mg.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Cefradina 500mg",
+    "imagen": "https://i.ibb.co/0RQn6PLQ/Cefradina-500mg.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Gasa Esteril",
+    "imagen": "https://i.ibb.co/1fjY8zQ5/Gasa-Esteril.png",
+    "estado": "disponible",
+    "categoria": "insumos"
+  },
+  {
+    "nombre": "Amokem Cv",
+    "imagen": "https://i.ibb.co/Z6YYJn9Y/Amokem-Cv.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Clindamicina",
+    "imagen": "https://i.ibb.co/MkqB8Lnc/Clindamicina.png",
+    "estado": "disponible",
+    "categoria": "cremas vaginales"
+  },
+  {
+    "nombre": "Clotrimazol Crema Vaginal 20mg",
+    "imagen": "https://i.ibb.co/GQSZDCsS/Clotrimazol-Crema-Vaginal-20mg.png",
+    "estado": "disponible",
+    "categoria": "cremas vaginales"
+  },
+  {
+    "nombre": "GynoComfort",
+    "imagen": "https://i.ibb.co/GQTn2zQd/Gyno-Comfort.png",
+    "estado": "disponible",
+    "categoria": "cremas vaginales"
+  },
+  {
+    "nombre": "Wassertrol",
+    "imagen": "https://i.ibb.co/s9vhNLy2/Wassertrol.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "GynoCanesten",
+    "imagen": "https://i.ibb.co/33GXg64/Gyno-Canesten.png",
+    "estado": "disponible",
+    "categoria": "cremas vaginales"
+  },
+  {
+    "nombre": "Vaxiduo",
+    "imagen": "https://i.ibb.co/LXRDw6Lp/Vaxiduo.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Osteocal 600",
+    "imagen": "https://i.ibb.co/WvzCc9s3/Osteocal-600.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Sophipren",
+    "imagen": "https://i.ibb.co/JR3KQJmW/Sophipren.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Landax",
+    "imagen": "https://i.ibb.co/FkL0xgSP/Landax.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Clindamicina Solucion Topica 30ml",
+    "imagen": "https://i.ibb.co/mCNsks99/Clindamicina.jpg",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Prueba de Embrazo Cassette",
+    "imagen": "https://i.ibb.co/SwP66sfz/Prueba-de-Embrazo-Cassette.png",
+    "estado": "disponible",
+    "categoria": "insumos"
+  },
+  {
+    "nombre": "Lidocaina HCL",
+    "imagen": "https://i.ibb.co/0RtJTRyd/Lidocaina-HCL.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Voltaren Emugel Forte",
+    "imagen": "https://i.ibb.co/LXD5cVXz/Voltaren-Emugel-Forte.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Roxicaina Jalea",
+    "imagen": "https://i.ibb.co/RpTfPBdn/Roxicaina-Jalea.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Fitostimoline",
+    "imagen": "https://i.ibb.co/Bkn65Jp/Fitostimoline.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Metronist",
+    "imagen": "https://i.ibb.co/35Q5J93K/Metronist.png",
+    "estado": "disponible",
+    "categoria": "cremas vaginales"
+  },
+  {
+    "nombre": "Venda Eastica 4\" Piel Paquete x 12 unds",
+    "imagen": "https://i.ibb.co/7JNQfsK5/Venda-Eastica-Paquete-x-12-unds.png",
+    "estado": "disponible",
+    "categoria": "insumos"
+  },
+  {
+    "nombre": "Venda Eastica 5\" Piel Paquete x 12 unds",
+    "imagen": "https://i.ibb.co/wZGn1Whp/Venda-Eastica-5-Piel-Paquete-x-12-unds.png",
+    "estado": "disponible",
+    "categoria": "insumos"
+  },
+  {
+    "nombre": "Vendas Elasticas 5\"x5 YDS",
+    "imagen": "https://i.ibb.co/vCfKK47f/Vendas-Elasticas-5x5-YDS.png",
+    "estado": "disponible",
+    "categoria": "insumos"
+  },
+  {
+    "nombre": "Monitor de Presion Arterial Digital Automatico",
+    "imagen": "https://i.ibb.co/8LsSDQz5/Monitor-de-Presion-Arterial-Digital-Automatico.png",
+    "estado": "disponible",
+    "categoria": "insumos"
+  },
+  {
+    "nombre": "Cateter 22G",
+    "imagen": "https://i.ibb.co/8DL1Q17v/Cateter-22-G.png",
+    "estado": "disponible",
+    "categoria": "insumos"
+  },
+  {
+    "nombre": "Recolector de Orina",
+    "imagen": "https://i.ibb.co/pVrXNCX/Recolector-de-Orina.png",
+    "estado": "disponible",
+    "categoria": "insumos"
+  },
+  {
+    "nombre": "Adella",
+    "imagen": "https://i.ibb.co/CgPgQG0/8e4ae379e127.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Alka-Sltzeer",
+    "imagen": "https://i.ibb.co/dzCqs3x/398673769a2e.jpg",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "AnemiKids",
+    "imagen": "https://i.ibb.co/0ptR2m2d/9c668644aaed.png",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  },
+  {
+    "nombre": "Apronax",
+    "imagen": "https://i.ibb.co/CKq2zk3x/f937306364a6.jpg",
+    "estado": "disponible",
+    "categoria": "Medicamentos"
+  }
+]

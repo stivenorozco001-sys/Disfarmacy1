@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  padding: 30px;
+}
+
+.login-box {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.descargar {
+  background: #16a34a;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.top-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.producto-item {
+  background: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.eliminar {
+  background: #dc2626;
+  margin-left: 5px;
+}
+ 
+/* Colores Visuales admin */
+
+.estado-disponible {
+  background-color: #dcfce7; /* verde claro */
+  color: #166534;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.estado-agotado {
+  background-color: #fee2e2; /* rojo claro */
+  color: #991b1b;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+}

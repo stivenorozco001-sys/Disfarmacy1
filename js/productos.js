@@ -1,4 +1,4 @@
-fetch('https://opensheet.elk.sh/1xS8HxxIUUpCfs6pH--_AN_GttVLohHrEAdKtnTdz4Hs/Hoja%201')
+fetch('productos.json')
   .then(res => res.json())
   .then(productos => {
 
