@@ -2,20 +2,20 @@
   {
     "nombre": "Sinalgen",
     "imagen": "https://i.ibb.co/8LmyxSLX/Sinalgen-5mg-325mg.jpg",
-    "estado": "disponible",
-    "categoria": "Medicamentos"
+    "estado": "Agotado",
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Dolex Forte",
     "imagen": "https://i.ibb.co/G4W6QQJY/dolex-forte-100-tabletas.png",
-    "estado": "Agotado",
-    "categoria": "medicamentos"
+    "estado": "disponible",
+    "categoria": "Medicamentos"
   },
   {
     "nombre": "Amoxicilina 250mg/5ml",
     "imagen": "https://i.ibb.co/JXrj8T7/Amoxicilina-250mg-5ml.png",
-    "estado": "Agotado",
-    "categoria": "medicamentos"
+    "estado": "disponible",
+    "categoria": "Medicamentos"
   },
   {
     "nombre": "Acetaminofen 90ml",
