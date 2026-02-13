@@ -1,4 +1,4 @@
-const PASSWORD = "disfarmacy2026*"; // 🔐 Cambia esto si quieres
+const PASSWORD = "admin123"; 
 
 let productos = [];
 let editIndex = null;
@@ -29,8 +29,8 @@ function cargarProductos() {
     });
 }
 
-/* ===== GUARDAR ===== */
-function guardarProducto() {
+/* ===== GUARDAR Y SINCRONIZAR ===== */
+async function guardarProducto() {
   const nombre = document.getElementById("nombre").value.trim();
   const imagen = document.getElementById("imagen").value.trim();
   const estado = document.getElementById("estado").value;
@@ -52,9 +52,11 @@ function guardarProducto() {
 
   limpiarFormulario();
   renderLista();
+
+  await sincronizarConGitHub();
 }
 
-/* ===== LISTAR CON BUSCADOR Y FILTRO ===== */
+/* ===== LISTAR ===== */
 function renderLista() {
   const lista = document.getElementById("listaProductos");
   const textoBusqueda = document.getElementById("buscador").value.toLowerCase();
@@ -69,7 +71,6 @@ function renderLista() {
     )
     .forEach((p, index) => {
 
-      // 🔥 Normalizamos estado (importa mayúscula/minúscula)
       const estadoNormalizado = (p.estado || "").toLowerCase();
 
       const claseEstado =
@@ -77,7 +78,6 @@ function renderLista() {
           ? "estado-disponible"
           : "estado-agotado";
 
-      // Mostrar bonito capitalizado
       const estadoMostrar =
         estadoNormalizado === "disponible"
           ? "Disponible"
@@ -119,9 +119,35 @@ function editarProducto(index) {
 }
 
 /* ===== ELIMINAR ===== */
-function eliminarProducto(index) {
+async function eliminarProducto(index) {
   productos.splice(index, 1);
   renderLista();
+
+  await sincronizarConGitHub();
+}
+
+/* ===== SINCRONIZAR CON BACKEND ===== */
+async function sincronizarConGitHub() {
+  try {
+    const response = await fetch("http://localhost:3000/actualizar-productos", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(productos)
+    });
+
+    if (response.ok) {
+      console.log("✔ GitHub actualizado correctamente");
+    } else {
+      console.error("Error actualizando GitHub");
+      alert("Error al actualizar en GitHub");
+    }
+
+  } catch (error) {
+    console.error(error);
+    alert("No se pudo conectar con el backend");
+  }
 }
 
 /* ===== LIMPIAR ===== */
@@ -132,7 +158,7 @@ function limpiarFormulario() {
   document.getElementById("categoria").value = "insumos";
 }
 
-/* ===== DESCARGAR ===== */
+/* ===== DESCARGAR MANUAL (OPCIONAL) ===== */
 function descargarJSON() {
   const dataStr = JSON.stringify(productos, null, 2);
   const blob = new Blob([dataStr], { type: "application/json" });
