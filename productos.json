@@ -2,158 +2,158 @@
   {
     "nombre": "Sinalgen",
     "imagen": "https://i.ibb.co/8LmyxSLX/Sinalgen-5mg-325mg.jpg",
-    "estado": "Agotado",
+    "estado": "disponible",
     "categoria": "medicamentos"
   },
   {
     "nombre": "Dolex Forte",
     "imagen": "https://i.ibb.co/G4W6QQJY/dolex-forte-100-tabletas.png",
-    "estado": "Agotado",
+    "estado": "disponible",
     "categoria": "medicamentos"
   },
   {
     "nombre": "Amoxicilina 250mg/5ml",
     "imagen": "https://i.ibb.co/JXrj8T7/Amoxicilina-250mg-5ml.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Acetaminofen 90ml",
     "imagen": "https://unidrogas.vtexassets.com/arquivos/ids/431115-800-800?v=638962038443100000&width=800&height=800&aspect=true",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Acetaminofen 120ml",
     "imagen": "https://i.ibb.co/Y4csbXcK/008eb3c63ec3.jpg",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Smecta",
     "imagen": "https://i.ibb.co/3mVxCHhm/smecta.jpg",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Piroxicam 20mg",
     "imagen": "https://i.ibb.co/9mWrR03Q/Piroxicam.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Adorlan Forte 20 Tabletas",
     "imagen": "https://i.ibb.co/3Yr11C79/Adorlan-Forte-20-Tabletas.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Adorlan 20 Comprimidos",
     "imagen": "https://i.ibb.co/HpCxSQJ7/Adorlan-20-comprimidos.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Ibuprofeno 400mg",
     "imagen": "https://i.ibb.co/q3xXHmpv/Ibuprofeno-400mg.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Apotox",
     "imagen": "https://i.ibb.co/Z1RYv3tn/Aprotox.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Tramadol",
     "imagen": "https://i.ibb.co/xKSwsrq5/Tramadol-100-mg-ml.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Krodex f Compuesto",
     "imagen": "https://i.ibb.co/dy9QV6H/Krodex-f-Compuesto.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Tramadol Clorohidrato 50 mg",
     "imagen": "https://i.ibb.co/pjYGc0gr/Tramadol-Clorohidrato-50-mg.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Fencafen",
     "imagen": "https://i.ibb.co/8W5S51c/Fencafen.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Activa 21",
     "imagen": "https://i.ibb.co/Q7d34QZ5/Activa-21.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "PostDay Levonorgestrel",
     "imagen": "https://i.ibb.co/YBfVzSRL/Post-Day.jpg",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Deferol",
     "imagen": "https://i.ibb.co/232bJpD5/Deferol.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Doxicilina 100mg",
     "imagen": "https://i.ibb.co/yFLHfcHs/Doxicilina-100mg.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Ampicilina 500mg",
     "imagen": "https://i.ibb.co/yFhxVqGk/Ampicilina-500mg.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Diclofenaco 100mg",
     "imagen": "https://i.ibb.co/3yqG6wGV/Diclofenaco-100mg.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Ibuprofeno 800mg",
     "imagen": "https://i.ibb.co/spX5xHMB/Ibuprofeno-800mg.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Buscapina fem",
     "imagen": "https://i.ibb.co/HLHWvPtW/Buscapina-fem.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Amoxicilina 500mg",
     "imagen": "https://i.ibb.co/HLyrCnvk/Amoxicilina-500mg.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Complejo B",
     "imagen": "https://i.ibb.co/BKVjJfGy/Complejo-B.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Tiamina 300mg",
     "imagen": "https://i.ibb.co/jPF4r5NL/Tiamina-300mg.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Clotrimazol 100mg",
@@ -177,25 +177,25 @@
     "nombre": "Oftalmotri Flox",
     "imagen": "https://i.ibb.co/RkDdQ2GL/Oftalmotri-Flox.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Dorzolamida Brimonida Tartrato",
     "imagen": "https://i.ibb.co/M5GbbY5s/Dorzolamida-Brimonida-Tartrato.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Metronidazol 500mg",
     "imagen": "https://i.ibb.co/v64Vn4hS/Metronidazol-500mg.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Cefradina 500mg",
     "imagen": "https://i.ibb.co/0RQn6PLQ/Cefradina-500mg.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Gasa Esteril",
@@ -207,7 +207,7 @@
     "nombre": "Amokem Cv",
     "imagen": "https://i.ibb.co/Z6YYJn9Y/Amokem-Cv.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Clindamicina",
@@ -231,7 +231,7 @@
     "nombre": "Wassertrol",
     "imagen": "https://i.ibb.co/s9vhNLy2/Wassertrol.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "GynoCanesten",
@@ -243,31 +243,31 @@
     "nombre": "Vaxiduo",
     "imagen": "https://i.ibb.co/LXRDw6Lp/Vaxiduo.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Osteocal 600",
     "imagen": "https://i.ibb.co/WvzCc9s3/Osteocal-600.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Sophipren",
     "imagen": "https://i.ibb.co/JR3KQJmW/Sophipren.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Landax",
     "imagen": "https://i.ibb.co/FkL0xgSP/Landax.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Clindamicina Solucion Topica 30ml",
     "imagen": "https://i.ibb.co/mCNsks99/Clindamicina.jpg",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Prueba de Embrazo Cassette",
@@ -279,25 +279,25 @@
     "nombre": "Lidocaina HCL",
     "imagen": "https://i.ibb.co/0RtJTRyd/Lidocaina-HCL.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Voltaren Emugel Forte",
     "imagen": "https://i.ibb.co/LXD5cVXz/Voltaren-Emugel-Forte.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Roxicaina Jalea",
     "imagen": "https://i.ibb.co/RpTfPBdn/Roxicaina-Jalea.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Fitostimoline",
     "imagen": "https://i.ibb.co/Bkn65Jp/Fitostimoline.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Metronist",
@@ -345,24 +345,217 @@
     "nombre": "Adella",
     "imagen": "https://i.ibb.co/CgPgQG0/8e4ae379e127.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Alka-Sltzeer",
     "imagen": "https://i.ibb.co/dzCqs3x/398673769a2e.jpg",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "AnemiKids",
     "imagen": "https://i.ibb.co/0ptR2m2d/9c668644aaed.png",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Apronax",
     "imagen": "https://i.ibb.co/CKq2zk3x/f937306364a6.jpg",
     "estado": "disponible",
-    "categoria": "Medicamentos"
+    "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Broncochem Jarabe Niños",
+  "imagen": "https://i.ibb.co/7dWc8Q1F/80db66a76954.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Cardio Aspirina",
+  "imagen": "https://i.ibb.co/m5WpsB0x/3baf5ea42012.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Cinta Adhesiva Microporosa",
+  "imagen": "https://i.ibb.co/ynQBzcKd/9f075d4d3e74.jpg",
+  "estado": "disponible",
+  "categoria": "insumos"
+  },
+  {
+  "nombre": "Congestex",
+  "imagen": "https://i.ibb.co/fV7nLGXk/7dd63b711810.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Dexametasona",
+  "imagen": "https://i.ibb.co/wZQVwTcm/09186f401569.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Dolofen",
+  "imagen": "https://i.ibb.co/Kx3cfNt7/7bda2c46a3e6.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Esparadrapo Tipo tela 2x5 Yds",
+  "imagen": "https://i.ibb.co/93mbgQmz/faec22826dbf.jpg",
+  "estado": "disponible",
+  "categoria": "insumos"
+  },
+  {
+  "nombre": "Ferbin Acido Valproico",
+  "imagen": "https://i.ibb.co/v6qt8t6J/8db90a55dbb1.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Furosemida",
+  "imagen": "https://i.ibb.co/tprP1dvt/4c759a4d945a.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "GastroFull",
+  "imagen": "https://i.ibb.co/35sb9QZQ/f266bfcccef8.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Gaviscon",
+  "imagen": "https://i.ibb.co/35tscyDX/12ceb40922f6.jpg",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Hioscina N-butilbromuro",
+  "imagen": "https://i.ibb.co/b5cfZKYk/f1e0e4a30d57.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Jaquedol",
+  "imagen": "https://i.ibb.co/8DLx2GLq/7f84145bb4bc.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Lansoprazol",
+  "imagen": "https://i.ibb.co/M58mCSf2/5c2e8ae8c5aa.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Lincomicina",
+  "imagen": "https://i.ibb.co/K3rjXXw/4983b992f22e.jpg",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Mucasina",
+  "imagen": "https://i.ibb.co/ccYsVJcd/c012ae674bf0.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "NAN OptiPro",
+  "imagen": "https://i.ibb.co/2YcXJqkP/d0e81d4cf880.png",
+  "estado": "disponible",
+  "categoria": "leches"
+  },
+  {
+  "nombre": "Nazil",
+  "imagen": "https://i.ibb.co/8DX77bDK/ea0672eb6c3c.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Nestogeno",
+  "imagen": "https://i.ibb.co/Rp39KrDr/3f9e073c27ef.png",
+  "estado": "disponible",
+  "categoria": "leches"
+  },
+  {
+  "nombre": "Nitazofin Bussie",
+  "imagen": "https://i.ibb.co/G1jmq98/2d87f23ac2f4.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Nitrofurazona 40gm",
+  "imagen": "https://i.ibb.co/1k3B3rb/205c18e88c06.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Noxpirin Tos Seca",
+  "imagen": "https://i.ibb.co/n8szxRZD/441c4878c6cb.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Noxpirin",
+  "imagen": "https://i.ibb.co/QjMghV06/cc483196e1b7.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Noxproxin Noche",
+  "imagen": "https://i.ibb.co/0pxxkg8d/59a3e603ec91.jpg",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Nutriben Bajo Peso",
+  "imagen": "https://i.ibb.co/FqgH9snG/f4931a6ad352.png",
+  "estado": "disponible",
+  "categoria": "leches"
+  },
+  {
+  "nombre": "Otrozol 500",
+  "imagen": "https://i.ibb.co/KxVfythT/e36d1b1685bc.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Postinor 2",
+  "imagen": "https://i.ibb.co/RwnWjx5/0825651414d5.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Sal Epsom",
+  "imagen": "https://i.ibb.co/qMZWgTLf/de1e62a73cb7.jpg",
+  "estado": "disponible",
+  "categoria": "insumos"
+  },
+  {
+  "nombre": "Syvioftal",
+  "imagen": "https://i.ibb.co/N6rJXzSx/dd3ebfc78ecf.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Tree CVitz",
+  "imagen": "https://i.ibb.co/SX9TtkMG/d2ac66eedcbe.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Trimetoprim Sulfa 120ml",
+  "imagen": "https://i.ibb.co/2Ykb1Qpp/ec5fed5ff1aa.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
+  },
+  {
+  "nombre": "Zambon Monuril",
+  "imagen": "https://i.ibb.co/LXsw2KV1/164a19b7a21a.png",
+  "estado": "disponible",
+  "categoria": "medicamentos"
   }
+
 ]
