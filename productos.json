@@ -2,13 +2,13 @@
   {
     "nombre": "Sinalgen",
     "imagen": "https://i.ibb.co/8LmyxSLX/Sinalgen-5mg-325mg.jpg",
-    "estado": "Disponible",
+    "estado": "Agotado",
     "categoria": "medicamentos"
   },
   {
     "nombre": "Dolex Forte",
     "imagen": "https://i.ibb.co/G4W6QQJY/dolex-forte-100-tabletas.png",
-    "estado": "Disponible",
+    "estado": "Agotado",
     "categoria": "medicamentos"
   },
   {
