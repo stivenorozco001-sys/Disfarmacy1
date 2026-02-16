@@ -1,4 +1,4 @@
-fetch('productos.json')
+fetch('productos.json?v=' + new Date().getTime())
   .then(res => res.json())
   .then(productos => {
 
@@ -23,7 +23,7 @@ fetch('productos.json')
        CONFIGURACIÓN
        =============================== */
 
-    // 📲 CAMBIA AQUÍ TU WHATSAPP
+    // 📲 WHATSAPP
     const telefonoWhatsApp = '573242228107';
 
     if (!productos || productos.length === 0) {
