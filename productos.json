@@ -14,8 +14,8 @@
   {
     "nombre": "Amoxicilina 250mg/5ml",
     "imagen": "https://i.ibb.co/JXrj8T7/Amoxicilina-250mg-5ml.png",
-    "estado": "disponible",
-    "categoria": "Medicamentos"
+    "estado": "Agotado",
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Acetaminofen 90ml",
