@@ -8,8 +8,8 @@
   {
     "nombre": "Dolex Forte",
     "imagen": "https://i.ibb.co/G4W6QQJY/dolex-forte-100-tabletas.png",
-    "estado": "disponible",
-    "categoria": "Medicamentos"
+    "estado": "Agotado",
+    "categoria": "medicamentos"
   },
   {
     "nombre": "Amoxicilina 250mg/5ml",
